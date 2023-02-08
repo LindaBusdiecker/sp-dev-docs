@@ -26,7 +26,7 @@ Any other value will result in an error.
 ### filepreview
 
 Use the special elmType `filepreview` in conjunction with the `src` attribute set to [`@thumbnail.<Size>`](#thumbnails) to view thumbnails for files in your document libary.
-If the thumbnail loads successfully, a small [brand type icon](https://developer.microsoft.com/en-us/fluentui#/styles/web/office-brand-icons) is visible on the bottom left. If the thumbanil fails to load (or if the file type doesn't support thumbnails), a [file type icon](https://developer.microsoft.com/en-us/fluentui#/styles/web/file-type-icons) is shown instead.
+If the thumbnail loads successfully, a small [brand type icon](https://developer.microsoft.com/en-us/fluentui#/styles/web/office-brand-icons) is visible on the bottom left. If the thumbnail fails to load (or if the file type doesn't support thumbnails), a [file type icon](https://developer.microsoft.com/en-us/fluentui#/styles/web/file-type-icons) is shown instead.
 
 ```json
 "elmType": "filepreview",
